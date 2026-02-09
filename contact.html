@@ -9,7 +9,10 @@
 
         <title>Contact Us - Techvivid Systems</title>
 
-        <!-- CSS FILES -->        
+        <!-- FAVICON -->
+        <link rel="icon" type="image/png" href="https://www.techvividsystems.com/wp-content/uploads/2019/03/new-logo.png">
+
+        <!-- CSS FILES -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,10 +36,7 @@
                         <img src="https://www.techvividsystems.com/wp-content/uploads/2019/03/new-logo.png" alt="Techvivid Systems" class="navbar-logo me-2" style="height: 45px;">
                     </a>
 
-                    <div class="d-lg-none ms-auto me-4">
-                        <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
-                    </div>
-    
+
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -72,8 +72,8 @@
                             </li>
                         </ul>
 
-                        <div class="d-none d-lg-block">
-                            <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
+                        <div class="d-none d-lg-block d-flex align-items-center gap-3">
+                            <button class="btn custom-btn" onclick="window.location.href='index.html#inquiry-form'">Get In Touch</button>
                         </div>
                     </div>
                 </div>
@@ -128,6 +128,14 @@
                                         </div>
                                     </div>
 
+                                    <div class="col-lg-6 col-md-6 col-12">
+                                        <div class="form-floating">
+                                            <input type="tel" name="phone" id="phone" class="form-control" placeholder="Phone number">
+
+                                            <label for="floatingInput">Phone number</label>
+                                        </div>
+                                    </div>
+
                                     <div class="col-lg-12 col-12">
                                         <div class="form-floating">
                                             <input type="text" name="subject" id="name" class="form-control" placeholder="Name" required="">
@@ -143,7 +151,7 @@
                                     </div>
 
                                     <div class="col-lg-4 col-12 ms-auto">
-                                        <button type="submit" class="form-control">Submit</button>
+                                        <button type="submit" class="btn custom-btn w-100">Submit Inquiry</button>
                                     </div>
 
                                 </div>
@@ -155,7 +163,7 @@
                                 <h5 class="mb-3">Techvivid Systems - Head Office</h5>
                                 <p class="mb-3">Office#205, 2nd Floor, A-140, Sector - 63, Noida-201301, Gautam Budh Nagar (U.P.), India</p>
 
-                                <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.752599999996!2d77.3812!3d28.5355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0:0x0!2zMjjCsDMyJzEwLjgiTiA3N8KwMjInNTMuOCJF!5e0!3m2!1sen!2sin!4v1643043271" width="100%" height="280" style="border:0; border-radius: 8px;" allowfullscreen="" loading="lazy"></iframe>
+                                <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.72984!2d77.37871!3d28.53548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1sA-140%20Sector%2063%20Noida%20201301!2s28.53548,77.37871!5e0!3m2!1sen!2sin!4v1643043271" width="100%" height="280" style="border:0; border-radius: 8px;" allowfullscreen="" loading="lazy"></iframe>
                             </div>
                         </div>
 
@@ -166,19 +174,19 @@
 
         <footer class="site-footer section-padding">
             <div class="container">
-                <div class="row">
+                <div class="row g-5">
 
                     <!-- Left Column: Logo + Social Icons -->
-                    <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
-                        <div class="mb-4">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="mb-5">
                             <a class="navbar-brand d-flex align-items-center" href="index.html">
-                                <img src="https://www.techvividsystems.com/wp-content/uploads/2019/03/new-logo.png" alt="Techvivid Systems" style="height: 50px;">
+                                <img src="https://www.techvividsystems.com/wp-content/uploads/2019/03/new-logo.png" alt="Techvivid Systems" style="height: 50px; filter: brightness(0) invert(1);">
                             </a>
                         </div>
 
-                        <h6 class="site-footer-title mb-3">Techvivid Systems Limited</h6>
+                        <h6 class="site-footer-title mb-4" style="white-space: nowrap;">Techvivid Systems (India)</h6>
 
-                        <div class="d-flex gap-3 mb-4">
+                        <div class="d-flex gap-4 mb-5">
                             <a href="#" class="text-white bi-linkedin" style="font-size: 1.2rem;"></a>
                             <a href="#" class="text-white bi-facebook" style="font-size: 1.2rem;"></a>
                             <a href="#" class="text-white bi-twitter" style="font-size: 1.2rem;"></a>
@@ -188,25 +196,25 @@
                     </div>
 
                     <!-- Middle Column: Other Links -->
-                    <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
-                        <h6 class="site-footer-title mb-4">Other Links</h6>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <h6 class="site-footer-title mb-5">Other Links</h6>
 
                         <ul class="site-footer-links">
-                            <li class="site-footer-link-item mb-3">
+                            <li class="site-footer-link-item mb-4">
                                 <a href="index.html" class="site-footer-link d-flex align-items-center">
                                     <i class="bi-circle-fill me-2" style="font-size: 0.5rem;"></i>
                                     Home
                                 </a>
                             </li>
 
-                            <li class="site-footer-link-item mb-3">
+                            <li class="site-footer-link-item mb-4">
                                 <a href="about.html" class="site-footer-link d-flex align-items-center">
                                     <i class="bi-circle-fill me-2" style="font-size: 0.5rem;"></i>
                                     About Us
                                 </a>
                             </li>
 
-                            <li class="site-footer-link-item mb-3">
+                            <li class="site-footer-link-item mb-4">
                                 <a href="team.html" class="site-footer-link d-flex align-items-center">
                                     <i class="bi-circle-fill me-2" style="font-size: 0.5rem;"></i>
                                     Our Team
@@ -223,34 +231,66 @@
                     </div>
 
                     <!-- Right Column: Get In Touch -->
-                    <div class="col-lg-3 col-md-6 col-12">
-                        <h6 class="site-footer-title mb-4">Get In Touch</h6>
+                    <div class="col-lg-6 col-12">
+                        <h6 class="site-footer-title mb-5">Get In Touch</h6>
 
-                        <h6 class="mb-3 text-white">Techvivid Systems</h6>
+                        <div class="row">
+                            <div class="col-md-6 col-12 mb-5 mb-md-0">
+                                <h6 class="mb-4 text-white" style="font-size: 1rem;">Head Office - India</h6>
 
-                        <p class="mb-3 text-white" style="font-size: 0.9rem;">
-                            <i class="bi-geo-alt me-2"></i>
-                            Office #205, 2nd Floor, A-140, Sector - 63, Noida-201301, Gautam Budh Nagar (U.P.), India
-                        </p>
+                                <p class="mb-4 text-white" style="font-size: 0.9rem;">
+                                    <i class="bi-geo-alt me-2"></i>
+                                    Office #205, 2nd Floor, A-140, Sector - 63, Noida-201301
+                                </p>
 
-                        <p class="mb-3 text-white">
-                            <a href="https://www.google.com/maps/place/Noida,+India/" class="site-footer-link d-flex align-items-center">
-                                <i class="bi-pin-map me-2"></i>
-                                Google Maps Location
-                            </a>
-                        </p>
+                                <p class="mb-4 text-white">
+                                    <a href="https://www.google.com/maps/place/TECHVIVID+SYSTEMS/@28.6197106,77.3752657,17z/data=!3m1!4b1!4m6!3m5!1s0x390ce5000225411b:0xf6771788a3322332!8m2!3d28.6197106!4d77.3778406!16s%2Fg%2F11yyf45k7w?entry=ttu" class="site-footer-link d-flex align-items-center">
+                                        <i class="bi-pin-map me-2"></i>
+                                        Google Maps Location
+                                    </a>
+                                </p>
 
-                        <p class="mb-3 text-white">
-                            <a href="tel:+91 0120 4370379" class="site-footer-link d-flex align-items-center">
-                                <i class="bi-telephone me-2"></i>
-                                +91 0120 4370379
-                            </a>
-                        </p>
+                                <p class="mb-3 text-white">
+                                    <a href="tel:+91 0120 4370379" class="site-footer-link d-flex align-items-center">
+                                        <i class="bi-telephone me-2"></i>
+                                        +91 0120 4370379
+                                    </a>
+                                </p>
 
-                        <p class="text-white" style="font-size: 0.9rem;">
-                            <i class="bi-file-text me-2"></i>
-                            Email: <a href="mailto:sales@techvividsystems.com" class="site-footer-link">sales@techvividsystems.com</a>
-                        </p>
+                                <p class="text-white" style="font-size: 0.9rem;">
+                                    <i class="bi-file-text me-2"></i>
+                                    <a href="mailto:sales@techvividsystems.com" class="site-footer-link">sales@techvividsystems.com</a>
+                                </p>
+                            </div>
+
+                            <div class="col-md-6 col-12">
+                                <h6 class="mb-4 text-white" style="font-size: 1rem;">Dubai Office</h6>
+
+                                <p class="mb-4 text-white" style="font-size: 0.9rem;">
+                                    <i class="bi-geo-alt me-2"></i>
+                                    P.O. BOX: 29687, Office #604, 6th Floor, CEO Building, Dubai
+                                </p>
+
+                                <p class="mb-4 text-white">
+                                    <a href="https://www.google.com/maps/place/Dubai/" class="site-footer-link d-flex align-items-center">
+                                        <i class="bi-pin-map me-2"></i>
+                                        Google Maps Location
+                                    </a>
+                                </p>
+
+                                <p class="mb-3 text-white">
+                                    <a href="tel:+971 45798673" class="site-footer-link d-flex align-items-center">
+                                        <i class="bi-telephone me-2"></i>
+                                        +971 45798673
+                                    </a>
+                                </p>
+
+                                <p class="text-white" style="font-size: 0.9rem;">
+                                    <i class="bi-file-text me-2"></i>
+                                    <a href="mailto:dxbsales@techvividsystems.com" class="site-footer-link">dxbsales@techvividsystems.com</a>
+                                </p>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
