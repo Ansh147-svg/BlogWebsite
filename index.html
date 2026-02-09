@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
 
-        <meta name="description" content="Techvivid Systems - Leading IT infrastructure, cloud solutions, managed services, and cybersecurity provider. Enterprise-grade services for data protection and digital transformation.">
-        <meta name="keywords" content="IT services, cloud solutions, managed services, cybersecurity, infrastructure, data protection, IT consulting">
+        <meta name="description" content="Techvivid Systems provides IT infrastructure, cloud solutions, managed services, and cybersecurity for growing businesses. Secure, scalable, enterprise-grade IT solutions.">
+        <meta name="keywords" content="IT infrastructure, cloud solutions, managed services, cybersecurity, data protection, IT consulting">
         <meta name="author" content="Techvivid Systems">
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
         <meta name="theme-color" content="#13547a">
@@ -14,20 +14,20 @@
         <!-- Open Graph Tags for Social Sharing -->
         <meta property="og:type" content="website">
         <meta property="og:url" content="https://www.techvividsystems.com">
-        <meta property="og:title" content="Techvivid Systems - IT Services & Solutions">
-        <meta property="og:description" content="Enterprise IT infrastructure, cloud computing, managed services, and cybersecurity solutions tailored to your business needs.">
+        <meta property="og:title" content="Techvivid Systems | IT Infrastructure, Cloud & Cybersecurity">
+        <meta property="og:description" content="Secure and scalable IT infrastructure, cloud services, managed services, and cybersecurity solutions for modern businesses.">
         <meta property="og:image" content="https://www.techvividsystems.com/wp-content/uploads/2019/03/new-logo.png">
 
         <!-- Twitter Card Tags -->
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="Techvivid Systems - IT Services & Solutions">
-        <meta name="twitter:description" content="Enterprise IT infrastructure, cloud computing, managed services, and cybersecurity solutions tailored to your business needs.">
+        <meta name="twitter:title" content="Techvivid Systems | IT Infrastructure, Cloud & Cybersecurity">
+        <meta name="twitter:description" content="Secure and scalable IT infrastructure, cloud services, managed services, and cybersecurity solutions for modern businesses.">
         <meta name="twitter:image" content="https://www.techvividsystems.com/wp-content/uploads/2019/03/new-logo.png">
 
         <!-- Canonical URL -->
         <link rel="canonical" href="https://www.techvividsystems.com">
 
-        <title>Techvivid Systems - IT Services & Solutions</title>
+        <title>Techvivid Systems | IT Infrastructure, Cloud & Cybersecurity</title>
 
         <!-- FAVICON -->
         <link rel="icon" type="image/png" href="https://www.techvividsystems.com/wp-content/uploads/2019/03/new-logo.png">
@@ -44,6 +44,8 @@
         <link href="css/bootstrap-icons.css" rel="stylesheet">
 
         <link href="css/templatemo-topic-listing.css" rel="stylesheet">
+
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
         <!-- Structured Data (JSON-LD) -->
         <script type="application/ld+json">
@@ -105,7 +107,7 @@
                     </button>
     
                     <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ms-lg-5 me-lg-auto">
+                        <ul class="navbar-nav mx-lg-auto">
                             <li class="nav-item">
                                 <a class="nav-link click-scroll" href="#section_1">Home</a>
                             </li>
@@ -126,14 +128,22 @@
                                 <a class="nav-link click-scroll" href="#section_5">Contact</a>
                             </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a>
-                            </li>
+                            <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+    <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+    <li><a class="dropdown-item" href="about.html">About Us</a></li>
+    <li><a class="dropdown-item" href="about.html#company">About Company</a></li>
+    <li><a class="dropdown-item" href="about.html#vision-mission">Vision & Mission</a></li>
+    <li><a class="dropdown-item" href="team.html#management-team">Management Team</a></li>
+    <li><a class="dropdown-item" href="team.html#expert-teams">Our Team</a></li>
+    <li><a class="dropdown-item" href="career.html">Careers</a></li>
+</ul>
+</li>
 
                             <li class="nav-item">
                                 <a class="nav-link" href="team.html">Team</a>
                             </li>
-                        </ul>
+</ul>
 
                         <div class="d-none d-lg-block d-flex align-items-center gap-3">
                             <button class="btn custom-btn" onclick="document.getElementById('inquiry-form').scrollIntoView({behavior: 'smooth'})">Get In Touch</button>
@@ -441,7 +451,7 @@
                                         <div class="col-lg-6 col-md-6 col-12">
                                             <div class="custom-block custom-block-overlay">
                                                 <div class="d-flex flex-column h-100">
-                                                    <img src="images/businesswoman-using-tablet-analysis-graph-company-finance-strategy-statistics-success-concept-planning-future-office-room.jpg" class="custom-block-image img-fluid" alt="">
+                                                    <img src="images/businesswoman-using-tablet-analysis.jpg" class="custom-block-image img-fluid" alt="">
 
                                                     <div class="custom-block-overlay-text d-flex">
                                                         <div>
@@ -774,7 +784,10 @@
 
                         <div class="col-lg-12 col-12 mt-5 pt-4" id="inquiry-form">
                             <h4 class="mb-4">Send Us an Inquiry</h4>
-                            <form action="#" method="post" class="custom-form" role="form">
+                            <form action="mailto:sales@techvividsystems.com" method="post" enctype="text/plain" class="custom-form" role="form">
+                                <input type="hidden" name="redirect" value="index.html">
+                                <input type="hidden" name="form_time" value="">
+                                <input type="text" name="website" value="" class="d-none" tabindex="-1" autocomplete="off">
                                 <div class="row">
                                     <div class="col-lg-6 col-12">
                                         <div class="form-floating mb-3">
@@ -813,6 +826,10 @@
 
                                     <div class="col-lg-12 col-12">
                                         <button type="submit" class="btn custom-btn">Send Inquiry</button>
+                                    </div>
+
+                                    <div class="col-lg-12 col-12 mt-3">
+                                        <div class="g-recaptcha" data-sitekey="6LfZDWYsAAAAAPzcPl365QigSh-HRxJhlIUkPcPJ"></div>
                                     </div>
                                 </div>
                             </form>
@@ -869,6 +886,13 @@
                                 <a href="team.html" class="site-footer-link d-flex align-items-center">
                                     <i class="bi-circle-fill me-2" style="font-size: 0.5rem;"></i>
                                     Our Team
+                                </a>
+                            </li>
+
+                            <li class="site-footer-link-item mb-4">
+                                <a href="career.html" class="site-footer-link d-flex align-items-center">
+                                    <i class="bi-circle-fill me-2" style="font-size: 0.5rem;"></i>
+                                    Careers
                                 </a>
                             </li>
 
@@ -956,5 +980,31 @@
         <script src="js/click-scroll.js"></script>
         <script src="js/custom.js"></script>
 
+        <div class="modal fade" id="inquiryStatusModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="inquiryStatusTitle">Inquiry Status</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" id="inquiryStatusBody">
+                        Your inquiry status will appear here.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn custom-btn" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </body>
 </html>
+
+
+
+
+
+
+
+
+

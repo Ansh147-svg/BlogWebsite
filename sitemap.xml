@@ -47,6 +47,15 @@
         <mobile:mobile/>
     </url>
 
+    <!-- Careers Page -->
+    <url>
+        <loc>https://www.techvividsystems.com/career.html</loc>
+        <lastmod>2026-02-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <mobile:mobile/>
+    </url>
+
     <!-- Contact Page -->
     <url>
         <loc>https://www.techvividsystems.com/contact.html</loc>
@@ -57,3 +66,4 @@
     </url>
 
 </urlset>
+

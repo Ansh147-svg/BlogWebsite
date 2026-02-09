@@ -4,27 +4,30 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
 
-        <meta name="description" content="Contact Techvivid Systems - Get in touch with our IT solutions experts. Office locations in Noida, India and Dubai, UAE. Call or email for consultations.">
-        <meta name="keywords" content="contact IT services, IT support, Techvivid Systems contact, IT consulting, IT services provider">
+        <meta name="description" content="Contact Techvivid Systems for IT infrastructure, cloud services, managed services, and cybersecurity support. Offices in Noida and Dubai.">
+        <meta name="keywords" content="contact Techvivid Systems, IT support, cloud services contact, cybersecurity contact">
         <meta name="author" content="Techvivid Systems">
         <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+        <meta name="theme-color" content="#13547a">
+        <meta name="msapplication-TileColor" content="#13547a">
 
         <!-- Open Graph Tags for Social Sharing -->
         <meta property="og:type" content="website">
-        <meta property="og:url" content="https://www.techvividsystems.com/contact">
-        <meta property="og:title" content="Contact Us - Techvivid Systems">
-        <meta property="og:description" content="Contact Techvivid Systems for IT infrastructure, cloud solutions, and cybersecurity services. Get in touch with our experts today.">
+        <meta property="og:url" content="https://www.techvividsystems.com/contact.html">
+        <meta property="og:title" content="Contact Techvivid Systems | IT Services">
+        <meta property="og:description" content="Get in touch for IT infrastructure, cloud services, managed services, and cybersecurity support.">
         <meta property="og:image" content="https://www.techvividsystems.com/wp-content/uploads/2019/03/new-logo.png">
 
         <!-- Twitter Card Tags -->
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="Contact Us - Techvivid Systems">
-        <meta name="twitter:description" content="Contact Techvivid Systems for IT infrastructure, cloud solutions, and cybersecurity services. Get in touch with our experts today.">
+        <meta name="twitter:title" content="Contact Techvivid Systems | IT Services">
+        <meta name="twitter:description" content="Get in touch for IT infrastructure, cloud services, managed services, and cybersecurity support.">
+        <meta name="twitter:image" content="https://www.techvividsystems.com/wp-content/uploads/2019/03/new-logo.png">
 
         <!-- Canonical URL -->
         <link rel="canonical" href="https://www.techvividsystems.com/contact.html">
 
-        <title>Contact Us - Techvivid Systems</title>
+        <title>Contact Techvivid Systems | IT Services</title>
 
         <!-- FAVICON -->
         <link rel="icon" type="image/png" href="https://www.techvividsystems.com/wp-content/uploads/2019/03/new-logo.png">
@@ -41,6 +44,18 @@
         <link href="css/bootstrap-icons.css" rel="stylesheet">
 
         <link href="css/templatemo-topic-listing.css" rel="stylesheet">
+
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "Contact Us - Techvivid Systems",
+          "url": "https://www.techvividsystems.com/contact.html",
+          "description": "Contact Techvivid Systems for IT infrastructure, cloud solutions, and cybersecurity services. Get in touch with our experts today."
+        }
+        </script>
+
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     </head>
     
     <body class="topics-listing-page" id="top">
@@ -59,7 +74,7 @@
                     </button>
     
                     <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ms-lg-5 me-lg-auto">
+                        <ul class="navbar-nav mx-lg-auto">
                             <li class="nav-item">
                                 <a class="nav-link click-scroll" href="index.html#section_1">Home</a>
                             </li>
@@ -80,14 +95,22 @@
                                 <a class="nav-link click-scroll" href="index.html#section_5">Contact</a>
                             </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a>
-                            </li>
+                            <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+    <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+    <li><a class="dropdown-item" href="about.html">About Us</a></li>
+    <li><a class="dropdown-item" href="about.html#company">About Company</a></li>
+    <li><a class="dropdown-item" href="about.html#vision-mission">Vision & Mission</a></li>
+    <li><a class="dropdown-item" href="team.html#management-team">Management Team</a></li>
+    <li><a class="dropdown-item" href="team.html#expert-teams">Our Team</a></li>
+    <li><a class="dropdown-item" href="career.html">Careers</a></li>
+</ul>
+</li>
 
                             <li class="nav-item">
                                 <a class="nav-link" href="team.html">Team</a>
                             </li>
-                        </ul>
+</ul>
 
                         <div class="d-none d-lg-block d-flex align-items-center gap-3">
                             <button class="btn custom-btn" onclick="window.location.href='index.html#inquiry-form'">Get In Touch</button>
@@ -127,7 +150,10 @@
                         </div>
 
                         <div class="col-lg-6 col-12 mb-4 mb-lg-0">
-                            <form action="#" method="post" class="custom-form contact-form" role="form">
+                            <form action="mailto:sales@techvividsystems.com" method="post" enctype="text/plain" class="custom-form contact-form" role="form">
+                                <input type="hidden" name="redirect" value="contact.html">
+                                <input type="hidden" name="form_time" value="">
+                                <input type="text" name="website" value="" class="d-none" tabindex="-1" autocomplete="off">
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-12">
                                         <div class="form-floating">
@@ -169,6 +195,10 @@
 
                                     <div class="col-lg-4 col-12 ms-auto">
                                         <button type="submit" class="btn custom-btn w-100">Submit Inquiry</button>
+                                    </div>
+
+                                    <div class="col-lg-12 col-12 mt-3">
+                                        <div class="g-recaptcha" data-sitekey="6LfZDWYsAAAAAPzcPl365QigSh-HRxJhlIUkPcPJ"></div>
                                     </div>
 
                                 </div>
@@ -235,6 +265,13 @@
                                 <a href="team.html" class="site-footer-link d-flex align-items-center">
                                     <i class="bi-circle-fill me-2" style="font-size: 0.5rem;"></i>
                                     Our Team
+                                </a>
+                            </li>
+
+                            <li class="site-footer-link-item mb-4">
+                                <a href="career.html" class="site-footer-link d-flex align-items-center">
+                                    <i class="bi-circle-fill me-2" style="font-size: 0.5rem;"></i>
+                                    Careers
                                 </a>
                             </li>
 
@@ -320,5 +357,31 @@
         <script src="js/jquery.sticky.js"></script>
         <script src="js/custom.js"></script>
 
+        <div class="modal fade" id="inquiryStatusModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="inquiryStatusTitle">Inquiry Status</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" id="inquiryStatusBody">
+                        Your inquiry status will appear here.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn custom-btn" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </body>
 </html>
+
+
+
+
+
+
+
+
+
