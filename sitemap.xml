@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:mobile="http://www.mobile.googlebot.com/schemas/mobile/1.0/">
+
+    <!-- Homepage -->
+    <url>
+        <loc>https://www.techvividsystems.com/index.html</loc>
+        <lastmod>2026-02-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- About Page -->
+    <url>
+        <loc>https://www.techvividsystems.com/about.html</loc>
+        <lastmod>2026-02-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- Services Page -->
+    <url>
+        <loc>https://www.techvividsystems.com/topics-listing.html</loc>
+        <lastmod>2026-02-09</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- Service Details -->
+    <url>
+        <loc>https://www.techvividsystems.com/topics-detail.html</loc>
+        <lastmod>2026-02-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- Team Page -->
+    <url>
+        <loc>https://www.techvividsystems.com/team.html</loc>
+        <lastmod>2026-02-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- Contact Page -->
+    <url>
+        <loc>https://www.techvividsystems.com/contact.html</loc>
+        <lastmod>2026-02-09</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <mobile:mobile/>
+    </url>
+
+</urlset>

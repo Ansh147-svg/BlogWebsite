@@ -1,0 +1,20 @@
+# Techvivid Systems - robots.txt
+# Allows search engines to crawl the website
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+
+# Slow crawlers
+User-agent: AhrefsBot
+User-agent: SemrushBot
+User-agent: DotBot
+Crawl-delay: 10
+
+# Sitemap
+Sitemap: https://www.techvividsystems.com/sitemap.xml
+
+# Cache control
+Cache-Control: max-age=86400
